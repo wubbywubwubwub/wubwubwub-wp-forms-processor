@@ -1,0 +1,33 @@
+table.submissions-list tbody tr.sub {
+    cursor: pointer;
+}
+
+table.submissions-list tbody tr.sub:hover {
+    background: rgba(37, 115, 170, 0.200);
+}
+
+.paging-input {
+    padding-top: 6px;
+    height: 25px;
+    display: inline-block;
+}
+
+.wubwubwub-wp-forms-submission-details div {
+    margin: 10px;
+    padding: 6px 20px;
+    border: 1px solid #e7e7e7;
+    border-left: 2px solid #2573aa;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+#wubwubwub-wp-forms-notify-remove-selected,
+#wubwubwub-wp-forms-notify-remove-all {
+    display: none;
+}
+
+.wubwubwub-thickbox-dismiss-button {
+    margin-left: 6px;
+}

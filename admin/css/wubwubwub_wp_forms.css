@@ -1,0 +1,38 @@
+table.forms-list th:nth-child(4),
+table.forms-list td:nth-child(4) {
+    text-align: right;
+}
+
+@media screen and (min-width: 782px) {
+    .display-small {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 782px) {
+    th:not(.column-main) {
+        display: none;
+    }
+
+    td:not(.column-main) {
+        display: none;
+    }
+}
+
+.remove-form-prompt {
+    display: none;
+    margin-top: 6px;
+}
+
+.remove-form-prompt span {
+    display: inline-block;
+    margin: 6px 10px 0 0;
+}
+
+.paging-input {
+    padding-top: 6px;
+    height: 25px;
+    display: inline-block;
+}

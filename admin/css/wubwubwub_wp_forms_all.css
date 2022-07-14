@@ -1,0 +1,10 @@
+#toplevel_page_wubwubwub_wp_forms li:nth-child(3),
+#toplevel_page_wubwubwub_wp_forms li:nth-child(4) {
+    display: none;
+}
+
+.wubwubwub-wp-forms-panel {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}

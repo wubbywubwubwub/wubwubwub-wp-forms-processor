@@ -1,0 +1,27 @@
+.wubwubwub-wp-forms-list li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+.wubwubwub-wp-forms-li-del-button {
+    display: inline-block;
+    border-radius: 24px;
+    font-size: 12px;
+    padding: 2px 2px;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    background: #B4B9BE;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wubwubwub-wp-forms-li-del-button:hover {
+    color: #fff;
+    background: #c00;
+}
+
+.wubwubwub_wp_forms_saving img {
+    vertical-align: middle;
+    margin-right: 6px;
+}
